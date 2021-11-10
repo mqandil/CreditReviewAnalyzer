@@ -1,0 +1,3 @@
+from sensitivityanalysis.sensitivity_analysis_calculator import sensitivity_analysis_calculator
+
+sensitivity_analysis_calculator()
