@@ -1,8 +1,5 @@
 import pandas as pd
-from pandas._libs.tslibs.period import IncompatibleFrequency
-from pandas.core.frame import DataFrame
 from sensitivityanalysis.loan_payment_calculator import LoanPaymentCalculator as lpc
-from IPython.display import display
 
 class SensitivityAnalysis():
     def __init__(self, principal=0, rate=0, period=0, years_until_payment=0, sqft=0, contracted_usd_sqft=0, market_usd_sqft_discount=0, vacancy=0, operating_expense_ratio=0, cap_rate=0):
